@@ -1,0 +1,40 @@
+.bgImg {
+  position: absolute;
+  bottom: 2rem;
+  width: 100%;
+}
+.heading {
+  position: relative;
+  font-size: 4.5rem;
+  width: 80rem;
+  text-align: center;
+  left: 7rem;
+  top: 3rem;
+  margin-bottom: 25rem;
+}
+.main {
+  display: block;
+}
+.detailsBtn {
+  background-color: #fff;
+  width: 8rem;
+  height: 2.5rem;
+  color: #000;
+  border-radius: 12px;
+  font-family: "Poppins";
+  position: relative;
+  left: 40rem;
+  bottom: 20rem;
+  margin-top: 1rem;
+  z-index: 5;
+  margin-right: 2rem;
+}
+.detailsBtn:hover {
+  background-color: #000;
+  width: 8rem;
+  height: 2.5rem;
+  color: #fff;
+  border-radius: 12px;
+  cursor: pointer;
+  font-family: "Poppins";
+}
