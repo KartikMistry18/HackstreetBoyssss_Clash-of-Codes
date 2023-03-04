@@ -5,6 +5,7 @@
   flex-wrap: wrap;
   padding-bottom: 30px;
   justify-content: space-evenly;
+  box-shadow: 5px 10px 8px #888888;
 }
 
 .mainHeading {
