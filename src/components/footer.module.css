@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap");
+.mainContainer {
+  background-color: #6b10f8;
+  width: 95vw;
+  height: 15rem;
+  margin: 0;
+
+  margin-left: 2rem;
+}
+.mainDiv {
+  width: 95vw;
+  height: 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.heading {
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 3rem;
+  font-family: "Poppins";
+}
+.footerImg {
+  width: 18rem;
+  margin-top: 1rem;
+}
+.socialLogo {
+  width: 3rem;
+  margin: 2rem;
+}
+.socialHeading {
+  font-family: "Poppins";
+  font-size: 30px;
+  text-align: center;
+}

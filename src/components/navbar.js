@@ -1,11 +1,11 @@
 import React from "react";
 import styles from "./navbar.module.css";
-
+import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Link from "next/link";
 function navbar() {
   const connectWalletHandler = async () => {
-    setError("");
+    const [error, setError] = useState("");
     //check if eth wallet exists
     if (typeof window !== undefined && typeof window.ethereum !== undefined) {
       try {
@@ -35,13 +35,13 @@ function navbar() {
             Home
           </Link>
           <Link className={styles.navElement} href="/">
-            About
+            Trade
           </Link>
-          <Link className={styles.navElement} href="/">
-            Projects
+          <Link className={styles.navElement} href="/Swap">
+            Swap
           </Link>
           <Link className={styles.navElement} href="/contactUs">
-            Contact
+            Pool
           </Link>
         </ul>
       </nav>
