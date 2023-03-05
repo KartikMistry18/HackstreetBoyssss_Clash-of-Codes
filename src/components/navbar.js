@@ -41,7 +41,7 @@ function navbar() {
             Swap
           </Link>
           <Link className={styles.navElement} href="/contactUs">
-            Pool
+            Lend and Borrow
           </Link>
         </ul>
       </nav>

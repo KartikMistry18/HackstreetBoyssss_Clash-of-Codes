@@ -15,6 +15,6 @@ contract Swap {
         balance = 0;
     }
 
-    fallback() external payable {}
+    fallback() external payable {}
 
 }
