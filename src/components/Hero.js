@@ -9,8 +9,8 @@ function Hero() {
       <h1 className={styles.heading}>
         "The Decentralized Way to manage your Finances"
       </h1>
-      <Button className={styles.detailsBtn}>More Details</Button>
-      <Button className={styles.detailsBtn}>More Details</Button>
+      <Button className={styles.detailsBtn}>Trade now</Button>
+      <Button className={styles.detailsBtn}>Swap now</Button>
       <Features />
     </div>
   );

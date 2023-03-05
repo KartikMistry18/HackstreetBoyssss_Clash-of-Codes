@@ -6,6 +6,8 @@ import Hero from "../components/Hero";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Trade from "../components/Trade";
+import Footer from "../components/footer";
+import SwapSection from "../components/SwapSection";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,6 +25,8 @@ export default function Home() {
           <Navbar />
           <Hero />
           <Trade />
+          <SwapSection />
+          <Footer />
         </div>
       </main>
     </>
